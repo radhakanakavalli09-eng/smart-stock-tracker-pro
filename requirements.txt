@@ -1,0 +1,19 @@
+# ── Stock Market Live Tracker — Python dependencies ──────────────────────────
+# Install all at once:
+#   pip install -r requirements.txt
+
+# Core GUI framework
+PyQt5>=5.15.9
+
+# Stock price data
+yfinance>=0.2.28
+
+# Chart rendering (embedded in the Qt window)
+matplotlib>=3.7.0
+pandas>=1.5.0
+
+# Desktop notifications (optional — app falls back to Qt popup if missing)
+plyer>=2.1.0
+
+# yfinance indirect dependency (usually auto-installed)
+requests>=2.31.0
